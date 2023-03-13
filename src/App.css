@@ -36,3 +36,53 @@
     transform: rotate(360deg);
   }
 }
+
+.optionButton{
+  width:"30%";
+  margin-top:5px;
+  padding:5px 10px ;
+  border: 1px solid blue;
+  cursor:pointer;
+  color:blue;
+  background-color:whitesmoke;
+  border-radius:10px;
+}
+
+.optionButton:hover{
+  background-color: blue;
+  color: azure;
+  border: none;
+}
+.optionButton:active {
+  background-color: blue;
+  /* border-color: $color_1; */
+  color: azure;
+  box-shadow: none;
+}
+.optionButton:focus, .optionButton:active:focus {
+  background-color: blue;
+  /* border-color: $color_1; */
+  color: azure;
+  outline: 5px auto azure;
+}
+.optionButton:visited {
+  background-color: blue;
+  /* border-color: $color_1; */
+}
+
+.next{
+  margin-top: 10px ;
+  margin-left: 20px ;
+  padding: 10px 20px;
+  color:whitesmoke;
+  background-color: darkgreen;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.next:hover{
+  color:darkgreen;
+  background-color: azure;
+  border: 1px solid darkgreen;
+}
